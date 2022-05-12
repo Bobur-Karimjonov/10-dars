@@ -1,0 +1,214 @@
+.delivering{
+  padding: 140px 0;
+  background-color: #004047;
+  background-image: url(../../images/section2-bg-img.png),url(../../images/section2-bg-imgleft.png);
+  background-repeat: no-repeat;
+  background-size: 147px 100px,200px 200px;
+  background-position: calc(50% - 600px) top,calc(50% + 575px) calc(118%);
+}
+.delivering__title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+.title-color{
+  color: #79C8C7;
+}
+.delivering__top{
+  width: 100%;
+  max-width: 932px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 92px;
+}
+.delivering__list {
+  // position: relative;
+  margin: 0 -30px;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+.delivering_item {
+  position: relative;
+  z-index: 1;
+  margin: 0 25px;
+  width: 100%;
+  max-width: 350px;
+  // align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  &::before{
+    position: absolute;
+    top: -35px;
+    left: 128px;
+    z-index: -1;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 67px;
+    height: 56px;
+    background-image: url(../../images/qowtrnoq.svg);
+    background-size: contain;
+    content: "";
+  }
+}
+.card-text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.card-title {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+}
+.card__span {
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.card__img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width:950px){
+  .delivering_item{
+    flex-direction: column;
+    max-width: 700px;
+  }
+}
+@media only screen and (max-width:768px){
+  .delivering{
+    padding: 100px 0;
+    overflow-x: hidden;
+    background-position: calc(50% - 315px) top, calc(50% + 285px) calc(111%);
+  }
+  .delivering__top{
+    margin-bottom: 84px;
+  }
+  .build__inner{
+    text-align: center;
+  }
+  .delivering__title{
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .delivering__list{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .delivering_item{
+    max-width: 573px;
+    flex-direction: column;
+
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+
+    &::before{
+      top: -35px;
+      left: 45%;
+    }
+  }
+  .card-text{
+    margin-bottom: 16px;
+    max-width: 573px;
+    text-align: center;
+  }
+  .card__span{
+    margin-bottom: 16px;
+  }
+  .card__img{
+    margin-bottom: 84px;
+  }
+  .img3{
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:568px){
+  .delivering{
+    padding: 140px 0;
+    // max-width: 450px;
+    background-position: calc(50% - 210px) top, calc(50% + 185px) calc(110%);
+  }
+  .delivering__inner{
+    margin: 0 24px;
+    margin-left: auto;
+  }
+
+  .delivering__top{
+    max-width: 450px;
+  }
+
+  .delivering_item{
+    max-width: 450px;
+  }
+}
+@media only screen and (max-width:500px){
+  .delivering{
+    background-position: calc(50% - 175px) top, calc(50% + 150px) calc(110%);
+  }
+}
+@media only screen and (max-width:450px){
+  .delivering{    
+    background-position: calc(50% - 150px) top, calc(50% + 130px) calc(109%);
+  }
+}
+@media only screen and (max-width:375px){
+  .delivering__title{
+    width: 100;
+    max-width: 400px;
+  }
+  .delivering{    
+    background-position: calc(50% - 112px) top, calc(50% + 100px) calc(108%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .delivering{
+    background-image: url(../../images/section2-bg-img@2x.png),url(../../images/section2-bg-imgleft@2x.png);
+  }
+}
