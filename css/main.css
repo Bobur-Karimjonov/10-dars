@@ -659,6 +659,20 @@ img {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .build {
+    padding: 64px 0;
+    background-position: calc(50% + 250px) top;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .build {
+    padding: 64px 0;
+    background-position: calc(50% + 220px) top;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .build {
     padding: 64px 0;
